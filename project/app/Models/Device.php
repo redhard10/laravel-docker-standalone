@@ -11,7 +11,8 @@ class Device extends Model
 
     protected $fillable = [
         'brand_name',
-        'model'
+        'model',
+        'customer_id'
     ];
 
     public function customer()
